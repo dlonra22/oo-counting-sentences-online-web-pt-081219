@@ -18,7 +18,7 @@ class String
     array = self.split(/[?!.]/)
     cnt = 0
     array.each do |elmnt|
-      if elemnt.length > 1 
+      if elmnt.length > 1 
         cnt+=1 
       end
     end
